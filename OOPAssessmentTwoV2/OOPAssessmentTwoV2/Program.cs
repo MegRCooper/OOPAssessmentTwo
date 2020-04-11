@@ -7,7 +7,7 @@ namespace OOPAssessmentTwoV2
     {
         static void Main(string[] args)
         {
-            //var fileOne = Path.Combine(Directory.GetCurrentDirectory(), "\\GitRepositories_1a.txt");
+            //Reads the texts from the files provided. 
             string fileOne = File.ReadAllText("C:\\Users\\megrc\\source\\repos\\OOPAssessmentTwoV2\\OOPAssessmentTwoV2\\Resources\\GitRepositories_1a.txt");
             string fileTwo = File.ReadAllText("C:\\Users\\megrc\\source\\repos\\OOPAssessmentTwoV2\\OOPAssessmentTwoV2\\Resources\\GitRepositories_1b.txt");
 
