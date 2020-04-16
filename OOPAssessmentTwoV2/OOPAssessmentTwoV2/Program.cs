@@ -8,6 +8,7 @@ namespace OOPAssessmentTwoV2
         static void Main(string[] args)
         {
             //Reads the texts from the files provided. 
+            //Need to change so it reads from resources/ GitHub rather than private storage.
             string fileOne = File.ReadAllText("C:\\Users\\megrc\\source\\repos\\OOPAssessmentTwoV2\\OOPAssessmentTwoV2\\Resources\\GitRepositories_1a.txt");
             string fileTwo = File.ReadAllText("C:\\Users\\megrc\\source\\repos\\OOPAssessmentTwoV2\\OOPAssessmentTwoV2\\Resources\\GitRepositories_1b.txt");
 
